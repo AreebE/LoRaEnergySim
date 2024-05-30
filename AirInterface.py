@@ -1,12 +1,11 @@
-from Simulations.GlobalConfig import *
-from Framework import PropagationModel
-from Framework.Location import Location
-from Framework.Gateway import Gateway
-from Framework.LoRaPacket import UplinkMessage
+from GlobalConfig import *
+import PropagationModel
+import Gateway
+from Location import Location
+from LoRaPacket import UplinkMessage
 import matplotlib.pyplot as plt
 import pandas as pd
-
-from Framework.SNRModel import SNRModel
+import SNRModel
 import gc
 
 

@@ -1,11 +1,11 @@
 import os
 import pickle
 
-from Simulations.GlobalConfig import locations_file
-from Framework.Location import Location
+from GlobalConfig import locations_file
+from Location import Location
 
-num_locations = 3
-cell_size = 100
+num_locations = 2
+cell_size = 10
 num_of_simulations = 1
 
 locations_per_simulation = list()
@@ -20,6 +20,7 @@ for num_sim in range(num_of_simulations):
 
 os.makedirs(os.path.dirname(locations_file), exist_ok=True)
 with open(locations_file, 'wb') as f:
+    print(locations_file)
     pickle.dump(locations_per_simulation, f)
 
 # just to test the code

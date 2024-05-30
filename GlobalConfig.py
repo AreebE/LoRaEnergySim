@@ -32,4 +32,5 @@ track_changes = True
 middle = np.round(cell_size / 2)
 load_prev_simulation_results = True
 
-############### DEFAULT PARAMETERS ###############
+############### CUSTOM DEFAULT PARAMETERS ###############
+default_downlink_payload = 'a'

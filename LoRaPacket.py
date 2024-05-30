@@ -1,6 +1,6 @@
 import math
 import numpy as np
-from Framework.LoRaParameters import LoRaParameters
+from LoRaParameters import LoRaParameters
 
 
 # this function computes the airtime for a specific set of parameters
